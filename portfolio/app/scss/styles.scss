@@ -1,0 +1,26 @@
+
+@import 'mixins';
+@import 'navigation';
+@import 'parallax';
+@import 'buttons';
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+$font-stack:    'Lato', sans-serif;
+$primary-color: #000;
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding-top: 30px;
+	color:$primary-color; 
+	font: 100% $font-stack;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size:4em;
+}
+
+
+

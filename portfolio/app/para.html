@@ -1,0 +1,187 @@
+<!-- layout.nunjucks -->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- endbuild -->
+
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+
+   <!-- You write code for this content block in another file -->
+  
+
+
+
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home"><strong>Anne</strong> Minford<br>
+                    <span data-hover="Kennels">Web Developer</span>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                     <li>
+                        <a href="/" class="">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about.html" class="">About</a>
+                    </li>
+                    <li>
+                       <a href="/para.html" class="active">Parallax</a>
+                    </li>
+                    <li>
+                       <a href="/contact.html" class="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<!-- first section - Home -->
+
+<body class="parallax contentpage">
+    <div class="home" id="home">
+        <div class="text-vcenter">
+            <h1>A parallax demonstration</h1>
+            <h2>This is bootstrap-based layout</h3>
+            <div class="wrap">
+              <h2>Sassy Button Mixin</h1>
+              <p>Use SASS to detect your background colors and other styles and apply them to your buttons for consistent global hovers and active states.</p>
+              <a href="#" class="btn btn-green">Green Button</a>
+              <a href="#" class="btn btn-blue">Blue Button</a>
+              <a href="#" class="btn btn-yellow">Yellow Button</a>
+              <a href="#" class="btn btn-red">Red Button</a>
+            </div>
+        </div>
+    </div><!-- /first section -->
+    <!-- second section - About -->
+    <div class="pad-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"><img alt="" src="images/logo.png"></div>
+                <div class="col-sm-6 text-center">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /second section -->
+    <!-- third section - Services -->
+    <div class="pad-section" id="services">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <hr>
+            <div class="row text-center">
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-cloud"></i>
+                    <h4>Service 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-leaf"></i>
+                    <h4>Service 2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-phone-alt"></i>
+                    <h4>Service 3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-bullhorn"></i>
+                    <h4>Service 4</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /third section -->
+    <!-- fourth section - Information -->
+    <div class="pad-section" id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Additional information</h2>
+                        </div>
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Additional information</h2>
+                        </div>
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /fourth section -->
+    <!-- fifth section -->
+    <div class="pad-section" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>Parallax scrolling effect is in action</h3>
+                    <h4>The next is the address on Google maps</h4>
+                </div>
+            </div>
+        </div>
+    </div><!-- /fifth section -->
+</body>
+</html>
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </div>
+    <!-- /.row -->
+</footer>
+
+    <!--build:js js/main.min.js -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

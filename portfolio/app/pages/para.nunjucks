@@ -1,0 +1,112 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import 'macros/nav-macro.nunjucks' as nav %}
+{{nav.active('para')}}
+<!-- first section - Home -->
+
+<body class="parallax contentpage">
+    <div class="home" id="home">
+        <div class="text-vcenter">
+            <h1>A parallax demonstration</h1>
+            <h2>This is bootstrap-based layout</h3>
+            <div class="wrap">
+              <h2>Sassy Button Mixin</h1>
+              <p>Use SASS to detect your background colors and other styles and apply them to your buttons for consistent global hovers and active states.</p>
+              <a href="#" class="btn btn-green">Green Button</a>
+              <a href="#" class="btn btn-blue">Blue Button</a>
+              <a href="#" class="btn btn-yellow">Yellow Button</a>
+              <a href="#" class="btn btn-red">Red Button</a>
+            </div>
+        </div>
+    </div><!-- /first section -->
+    <!-- second section - About -->
+    <div class="pad-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"><img alt="" src="images/logo.png"></div>
+                <div class="col-sm-6 text-center">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /second section -->
+    <!-- third section - Services -->
+    <div class="pad-section" id="services">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <hr>
+            <div class="row text-center">
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-cloud"></i>
+                    <h4>Service 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-leaf"></i>
+                    <h4>Service 2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-phone-alt"></i>
+                    <h4>Service 3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <i class="glyphicon glyphicon-bullhorn"></i>
+                    <h4>Service 4</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /third section -->
+    <!-- fourth section - Information -->
+    <div class="pad-section" id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Additional information</h2>
+                        </div>
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Additional information</h2>
+                        </div>
+                        <div class="panel-body lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /fourth section -->
+    <!-- fifth section -->
+    <div class="pad-section" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>Parallax scrolling effect is in action</h3>
+                    <h4>The next is the address on Google maps</h4>
+                </div>
+            </div>
+        </div>
+    </div><!-- /fifth section -->
+</body>
+</html>
+
+
+
+
+{% include "partials/footer.nunjucks" %}
+{% endblock %}
+

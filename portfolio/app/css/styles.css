@@ -1,0 +1,117 @@
+/*@import 'parallax';*/
+/*PARALLAX
+ general styles */
+/* general styles */
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html, body {
+  height: 100%;
+  width: 100%;
+  padding-top: 30px; }
+
+/* padded section */
+.pad-section {
+  padding: 50px 0; }
+  .pad-section img {
+    width: 100%; }
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+  .text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0; }
+
+/* additional sections */
+#home {
+  background: url(../images/home-1.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff; }
+
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px; }
+
+#information {
+  background: url(../images/home-2.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #information .panel {
+    opacity: 0.85; }
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em; }
+
+.btn-green {
+  background: #2ecc71; }
+  .btn-green:hover {
+    background: #26ab5f;
+    transition: all 0.3s ease; }
+  .btn-green:active {
+    background: #176437; }
+
+.btn-blue {
+  background: #3498db; }
+  .btn-blue:hover {
+    background: #2383c4;
+    transition: all 0.3s ease; }
+  .btn-blue:active {
+    background: #16527a; }
+
+.btn-yellow {
+  background: #f1c40f; }
+  .btn-yellow:hover {
+    background: #cba50c;
+    transition: all 0.3s ease; }
+  .btn-yellow:active {
+    background: #796307; }
+
+.btn-red {
+  background: #e74c3c; }
+  .btn-red:hover {
+    background: #df2e1b;
+    transition: all 0.3s ease; }
+  .btn-red:active {
+    background: #921e12; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+  color: #000;
+  font: 100% "Lato", sans-serif; }
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 4em; }
