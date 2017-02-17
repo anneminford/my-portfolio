@@ -5,5 +5,10 @@
   }, {
     "src": "image-two.png",
     "alt": "Image two alt text"
+  }],
+  "skills": [{
+    "title": "wordpress"
+  }, {
+    "title": "bootstrap"
   }]
 }

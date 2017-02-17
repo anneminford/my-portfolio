@@ -28,6 +28,12 @@
         }
     })
 
+    // Instagram
+    // var feed = new Instafeed({
+    //     clientId: '2227a998ab334bfaa21248dc004c7ac5'
+    // });
+    // feed.run();
+
     // Floating label headings for the contact form
     $(function() {
         $("body").on("input propertychange", ".floating-label-form-group", function(e) {
