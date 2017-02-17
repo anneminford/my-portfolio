@@ -20,6 +20,8 @@
     "gulp-imagemin": "^3.1.1",
     "gulp-nunjucks-render": "^2.0.0",
     "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.2",
+    "gulp-sassbeautify": "^0.1.0",
     "gulp-uglify": "^2.0.1",
     "gulp-useref": "^3.1.2",
     "run-sequence": "^1.2.2"
