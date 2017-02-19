@@ -19,15 +19,6 @@
         </div>
     </header>
 
-    <div class="gallery">
-  <!-- Loops through "images" array -->
-  {% for image in images %}
-  <div class="gallery__item">
-    <img src="{{image.src}}" alt="{{image.alt}}">
-  </div>
-  {% endfor %}
-</div>
-
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
@@ -35,69 +26,39 @@
                 <div class="col-lg-12 text-center">
                     <h2>Skills</h2>
                     <hr class="star-primary">
+                    <em class="icon-photoshop"></em> Photoshop
+                    <em class="icon-illustrator"></em> Illustrator
+                    <em class="icon-jquery"></em> jQuery
+                    <em class="icon-git-squared"></em> Git
+                    <em class="icon-bootstrap"></em> Bootstrap
+
+                    
+                    <em class="icon-sass"></em> SASS
+                    <em class="icon-css3"></em> CSS3
+                    <em class="icon-nodejs"></em> Node Js
+                    <em class="icon-illustrator"></em> Illustrator
+                    <em class="icon-html5"></em>HTML 5 GULP
+
+
+ 
+
+
                 </div>
             </div>
             <div class="row">
+             <!-- Loops through "skills" array -->
+                {% for skill in skills %}
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="images/portfolio/{{skill.image}}" class="img-responsive" alt="{{skill.alt}}">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>

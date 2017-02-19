@@ -7,8 +7,25 @@
     "alt": "Image two alt text"
   }],
   "skills": [{
-    "title": "wordpress"
+    "image": "HTML5_Logo_512.png",
+    "alt": "HTML 5"
   }, {
-    "title": "bootstrap"
+    "image": "css3.png",
+    "alt": "CSS 3"
+  }, {
+    "image": "jQuery-Logo.png",
+    "alt": "jquery"
+  },
+   {
+    "image": "wordpress.png",
+    "alt": "Wordpress"
+  },
+   {
+    "image": "safe.png",
+    "alt": "This is a safe"
+  },
+  {
+    "image": "submarine.png",
+    "alt": "This is a submarine"
   }]
 }

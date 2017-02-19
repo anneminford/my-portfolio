@@ -17,6 +17,7 @@ http://paulmaloney.net/
   <link rel="stylesheet" href="css/lib/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/lib/font-awesome.css">
+  <link rel="stylesheet" href="css/lib/technology-icons.css">
   <!-- endbuild -->
 
   <!--[if lt IE 9]>
