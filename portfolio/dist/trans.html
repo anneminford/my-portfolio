@@ -25,10 +25,28 @@
     transition: 1s;
     left: 0;
 }
+
+#slide.top {
+    position: absolute;
+    top: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 1s;
+}
+
+.wrapper:hover #slide.top {
+    transition: 1s;
+    top: 0;
+}
 </style>
 <h1>Transition and animation tests</h1>
 <div class="wrapper">
     <img id="slide" src="http://lorempixel.com/output/cats-q-c-100-100-4.jpg" />
+</div>
+
+<div class="wrapper">
+    <img id="slide" class="top" src="http://lorempixel.com/output/cats-q-c-100-100-4.jpg" />
 </div>
    
    
