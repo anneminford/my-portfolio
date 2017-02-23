@@ -7,25 +7,41 @@
     "alt": "Image two alt text"
   }],
   "skills": [{
-    "image": "HTML5_Logo_512.png",
+    "image": "portfolio-logo-html5.png",
     "alt": "HTML 5"
   }, {
-    "image": "css3.png",
+    "image": "portfolio-logo-css3.png",
     "alt": "CSS 3"
   }, {
-    "image": "jQuery-Logo.png",
-    "alt": "jquery"
-  },
-   {
-    "image": "wordpress.png",
-    "alt": "Wordpress"
-  },
-   {
-    "image": "safe.png",
-    "alt": "This is a safe"
+    "image": "portfolio-logo-sass.png",
+    "alt": "SASS"
   },
   {
-    "image": "submarine.png",
-    "alt": "This is a submarine"
+    "image": "portfolio-logo-bootstrap.png",
+    "alt": "Bootstrap"
+  },
+   {
+    "image": "portfolio-logo-jquery.png",
+    "alt": "jQuery"
+  },
+  {
+    "image": "portfolio-logo-gulp.png",
+    "alt": "Gulp"
+  },
+  {
+    "image": "portfolio-logo-grunt.png",
+    "alt": "Grunt"
+  },
+  {
+    "image": "portfolio-logo-git.png",
+    "alt": "Git"
+  },
+{
+    "image": "portfolio-logo-wordpress.png",
+    "alt": "Wordpress"
+  },
+  {
+    "image": "portfolio-logo-shopify.png",
+    "alt": "Shopify"
   }]
 }

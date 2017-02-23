@@ -26,7 +26,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>Skills</h2>
                     <hr class="star-primary">
-                    <em class="icon-photoshop"></em> Photoshop
+       <!--              <em class="icon-photoshop"></em> Photoshop
                     <em class="icon-illustrator"></em> Illustrator
                     <em class="icon-jquery"></em> jQuery
                     <em class="icon-git-squared"></em> Git
@@ -37,7 +37,7 @@
                     <em class="icon-css3"></em> CSS3
                     <em class="icon-nodejs"></em> Node Js
                     <em class="icon-illustrator"></em> Illustrator
-                    <em class="icon-html5"></em>HTML 5 GULP
+                    <em class="icon-html5"></em>HTML 5 GULP -->
 
 
  
@@ -48,14 +48,14 @@
             <div class="row">
              <!-- Loops through "skills" array -->
                 {% for skill in skills %}
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-lg-3 portfolio-item">
                     <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/portfolio/{{skill.image}}" class="img-responsive" alt="{{skill.alt}}">
+                        <img src="images/portfolio/{{skill.image}}" class="img-responsive center-block" alt="{{skill.alt}}">
                     </a>
                 </div>
                 {% endfor %}
