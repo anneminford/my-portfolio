@@ -24,6 +24,7 @@
     "gulp-sassbeautify": "^0.1.0",
     "gulp-uglify": "^2.0.1",
     "gulp-useref": "^3.1.2",
+    "gulp-zip": "^4.0.0",
     "run-sequence": "^1.2.2"
   }
 }

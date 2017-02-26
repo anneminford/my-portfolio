@@ -14,6 +14,7 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var nunjucksRender = require('gulp-nunjucks-render');
 var data = require('gulp-data');
+var zip = require('gulp-zip');
 
 
 // tasks
@@ -89,6 +90,11 @@ gulp.task('fonts', function() {
   .pipe(gulp.dest('portfolio/dist/fonts'))
 })
 
+gulp.task('mail', function() {
+  return gulp.src('portfolio/app/mail/**/*')
+  .pipe(gulp.dest('portfolio/dist/mail'))
+})
+
 // Since we're generating files automatically, we'll want to make sure that files that are no longer used don't remain anywhere without us knowing.
 
 // This process is called cleaning (or in simpler terms, deleting files).
@@ -101,7 +107,7 @@ gulp.task('clean:dist', function() {
 
 gulp.task('build', function (callback) {
   runSequence('clean:dist', 
-    ['nunjucks','sass', 'useref', 'images', 'fonts'],
+    ['nunjucks','sass', 'useref', 'images', 'fonts', 'mail'],
     callback
   )
 })
@@ -111,3 +117,4 @@ gulp.task('default', function (callback) {
     callback
   )
 })
+
