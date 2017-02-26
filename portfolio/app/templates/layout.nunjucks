@@ -14,7 +14,6 @@
     <title>Anne Minford ~ Web Developer</title>
 
   <!--build:css css/styles.min.css-->
-
   <link rel="stylesheet" href="css/lib/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/lib/font-awesome.css">
